@@ -211,11 +211,11 @@ body nav#navigation .social-links li:nth-child(4) svg:hover path:nth-child(2) {
 /* == == */
 
 #projects .card circle {
-  fill: var(--secundary-color);
-}
+  fill: var(black);
+} 
 
-#backToTopButton circle {
-  fill: purple;
+ #backToTopButton circle {
+  fill: black; 
 }
 
 #contact li path,
@@ -464,7 +464,7 @@ body.menu-expanded button path {
   display: block;
   width: 27rem;
   height: 27rem;
-  background-color: purple;
+  /* background-color: black; */
   border-radius: 100%;
   position: absolute;
   bottom: -3.1rem;
