@@ -1,9 +1,7 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   font-family: "DM Sans", sans-serif;
 }
 
@@ -14,13 +12,10 @@
   --secundary-color: hsl(0, 0%, 5%);
   --third-color: hsla(0, 0%, 100%, 0.1);
   --bg-color: hsl(0, 0%, 8%);
-
   --headline: hsl(0, 0%, 100%);
   --paragraph: hsla(0, 0%, 100%, 0.658);
   --paragraph-2: hsl(calc(var(--hue) + 10), 14%, 97%);
-
   font-size: 62.5%;
-
   --nav-height: 7.2rem;
 }
 
@@ -37,9 +32,7 @@ body {
 body {
   font-size: 1.6rem;
   text-align: center;
-
   overflow: overlay;
-
   background-color: var(--bg-color);
 }
 
@@ -47,7 +40,6 @@ body.light-mode {
   --secundary-color: rgb(229, 229, 229);
   --third-color: hwb(0 48% 52% / 0.356);
   --bg-color: rgb(241, 241, 241);
-
   --headline: hsl(0, 0%, 0%);
   --paragraph: rgb(32, 32, 32);
   --paragraph-2: hsl(calc(var(--hue) + 10), 14%, 3%);
@@ -97,16 +89,14 @@ section h4 {
   font-weight: 700;
   line-height: 150%;
   letter-spacing: 0.08rem;
-  color: var(--primary-color);
+  color: aqua;
   text-transform: uppercase;
-
   margin-bottom: 1.6rem;
 }
 
 section header h2 {
   font-size: 3rem;
   line-height: 3.9rem;
-
   color: var(--primary-color);
 }
 
@@ -119,32 +109,25 @@ section span {
   font-weight: 400;
   font-size: 1.7rem;
   line-height: 130%;
-
   color: var(--paragraph);
 }
 
 .button {
   background: none;
   border: 0.2rem solid var(--primary-color);
-
   margin-bottom: 6rem;
   padding: 1.4rem 3rem;
-
   width: fit-content;
-
   color: var(--primary-color);
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1.6rem;
-
   position: relative;
-
   transition: 400ms;
 }
 
@@ -250,9 +233,7 @@ body nav#navigation .social-links li:nth-child(4) svg:hover path:nth-child(2) {
 nav {
   width: 100vw;
   height: var(--nav-height);
-
   display: flex;
-
   position: fixed;
   top: 0;
   z-index: 100;
@@ -283,7 +264,7 @@ a.logo {
 }
 
 nav#navigation a.logo {
-  color: var(--primary-color);
+  color: aqua;
 }
 
 body.light-mode nav#navigation a.logo,
@@ -328,7 +309,7 @@ nav .close-menu {
   position: fixed;
 }
 
-/*===== MENU-EXPANDED ==========================================*/
+/*MENU-EXPANDED */
 
 body.menu-expanded {
   overflow: hidden;
@@ -360,16 +341,12 @@ body.menu-expanded .menu,
 body.menu-expanded nav.scroll .menu {
   top: 0;
   left: 0;
-
   background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(1rem);
   -webkit-backdrop-filter: blur(1rem);
-
   width: 100vw;
   height: 100vh;
-
   padding-top: var(--nav-height);
-
   transition: transform 300ms;
   transform: translateX(0);
 }
@@ -378,14 +355,11 @@ body.menu-expanded nav.scroll .menu {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-
   margin: 8rem 0 10rem 0;
-
   font-weight: 700;
   font-size: 2rem;
   line-height: 3.1rem;
 }
-
 body.menu-expanded nav .logo,
 body.menu-expanded button {
   position: relative;
@@ -402,40 +376,34 @@ body.menu-expanded button path {
   height: 100vh;
   min-height: calc(60rem + var(--nav-height));
   padding-block: 0;
-
   background-color: var(--secundary-color);
-
   display: flex;
   align-items: center;
 }
 
 #home .wrapper {
   height: 53rem;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 6rem;
-
   position: relative;
 }
 
 #home h1 {
   font-size: 4.5rem;
-  color: var(--headline);
+  color: aqua;
   line-height: 110%;
-
   margin-bottom: 1rem;
 }
 
 #home p {
   display: inline-flex;
-
   font-size: 1.8rem;
   line-height: 150%;
   font-weight: bold;
-
+  color: aqua;
   margin-bottom: 3.2rem;
 }
 
@@ -477,7 +445,6 @@ body.menu-expanded button path {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-
   animation: flutuar 3s infinite backwards;
   position: relative;
 }
@@ -497,17 +464,13 @@ body.menu-expanded button path {
 #home .wrapper::before {
   content: "";
   display: block;
-
   width: 27rem;
   height: 27rem;
-
   background-color: var(--primary-color);
   border-radius: 100%;
-
   position: absolute;
   bottom: -3.1rem;
   z-index: -1;
-
   animation: appear 1s 500ms backwards;
 }
 
@@ -547,31 +510,11 @@ body.light-mode #home img#notebook-2-white {
   animation: appear 1s 2s backwards;
 }
 
-#home img#vidro {
-  position: absolute;
-  z-index: 100;
-  right: -2rem;
-  animation: appear-vidro 1s 2.3s backwards;
-
-  filter: contrast(5);
-}
-
 @keyframes appear {
   from {
     opacity: 0;
   }
   to {
-    opacity: 1;
-  }
-}
-
-@keyframes appear-vidro {
-  from {
-    right: -4rem;
-    opacity: 0;
-  }
-  to {
-    right: -2rem;
     opacity: 1;
   }
 }
@@ -602,10 +545,8 @@ body.light-mode #home img#notebook-2-white {
 
 #about img {
   width: 38rem;
-
   border-radius: 2rem;
   box-shadow: 0 0 2rem black;
-
   transition: 600ms;
 }
 
@@ -782,12 +723,9 @@ body.light-mode #home img#notebook-2-white {
 #knowledge .card {
   padding: 2.8rem;
   text-align: left;
-
   background: var(--secundary-color);
-
   border-radius: 0.6rem;
   box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.267);
-
   transition: 400ms;
 }
 
@@ -814,7 +752,6 @@ body.light-mode #home img#notebook-2-white {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   margin-bottom: 2rem;
 }
 
@@ -835,16 +772,12 @@ body.light-mode #home img#notebook-2-white {
 #contact ul a,
 #about .content a:nth-child(2) {
   width: fit-content;
-
   text-decoration: none;
-
   display: flex;
   align-items: center;
   gap: 1rem;
-
   padding: 1rem;
   border-radius: 0.8rem;
-
   transition: 300ms;
 }
 
@@ -861,7 +794,7 @@ body.light-mode #home img#notebook-2-white {
 }
 
 #contact a.button path {
-  fill: var(--primary-color);
+  color: #00abf0;
 }
 
 #contact a.button:hover path {
@@ -878,7 +811,6 @@ body.light-mode #home img#notebook-2-white {
 
 #contact .col-b {
   height: 38rem;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -894,10 +826,8 @@ body.light-mode #home img#notebook-2-white {
 #contact .col-b::after {
   content: "";
   display: block;
-
   width: 13rem;
   height: 5rem;
-
   background-color: black;
   border-radius: 100%;
 }
@@ -910,7 +840,6 @@ body.light-mode #contact .col-b::after {
 
 footer {
   background-color: var(--secundary-color);
-
   text-align: left;
   color: var(--paragraph);
 }
@@ -937,7 +866,6 @@ body.light-mode footer a img:nth-child(2) {
 
 footer p {
   line-height: 2;
-
   margin-bottom: 3.2rem;
 }
 
@@ -952,14 +880,13 @@ footer .social-links li:nth-child(1) svg path {
 footer .social-links li:nth-child(2) svg path:nth-child(2),
 footer .social-links li:nth-child(3) svg path:nth-child(2),
 footer .social-links li:nth-child(4) svg path:nth-child(2) {
-  fill: var(--paragraph-2);
+fill: var(--paragraph-2);
 }
 
 /*===== SWITCH MODE TOGGLE =====================================*/
 
 #toggle {
   display: flex;
-
   position: fixed;
   bottom: 2rem;
   left: 2.5rem;
@@ -973,11 +900,9 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 #toggle label {
   width: 8rem;
   height: 4rem;
-
-  background-color: var(--secundary-color);
-  border: 0.1rem solid var(--primary-color);
+  background-color: black;
+  border: 0.2rem solid aqua;
   border-radius: 5rem;
-
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -990,18 +915,14 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 #toggle label::before {
   content: "";
   display: block;
-
   width: 3rem;
   height: 3rem;
-
-  background-color: var(--primary-color);
+  background-color: white;
   border-radius: 50%;
-
   position: absolute;
   bottom: 0.5rem;
   left: 0.6rem;
   transform: translateX(0);
-
   transition: 500ms;
 }
 
@@ -1015,10 +936,8 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   position: fixed;
   bottom: 1.5rem;
   right: 2.5rem;
-
   opacity: 0;
   visibility: hidden;
-
   transition: 200ms;
   transform: translateY(100%);
 }
@@ -1026,7 +945,6 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 #backToTopButton.show {
   opacity: 1;
   visibility: visible;
-
   transform: translateY(0);
 }
 
@@ -1034,7 +952,6 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 
 @media (min-width: 1024px) {
   /*===== GERAL =======================================*/
-
   body {
     overflow: auto;
   }
@@ -1085,7 +1002,6 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
     font-size: 4rem;
     opacity: 0.7;
   }
-
   nav#navigation .close-menu,
   nav#navigation .open-menu {
     display: none;
@@ -1095,7 +1011,6 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     width: 70%;
   }
 
@@ -1107,7 +1022,6 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   nav#navigation .menu ul li a {
     color: var(--primary-color);
     opacity: 0.7;
-
     transition: opacity 0.4s;
   }
 
