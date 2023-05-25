@@ -219,15 +219,15 @@ body nav#navigation .social-links li:nth-child(4) svg:hover path:nth-child(2) {
 }
 
 #contact li path,
-#navigation button.open-menu path[stroke*="#FFD700"] {
-  stroke: var(--primary-color);
+#navigation button.open-menu path[stroke*=""] {
+  stroke: white
 }
 
-#navigation.scroll button.open-menu path[stroke*="#FFD700"] {
-  stroke: var(--paragraph-2);
+#navigation.scroll button.open-menu path[stroke*=""] {
+  stroke: white;
 }
 
-/*===== NAVIGATION ===================================*/
+/*NAVIGATION*/
 
 nav {
   width: 100vw;
@@ -369,7 +369,7 @@ body.menu-expanded button path {
   stroke: purple;
 }
 
-/*===== HOME ===================================*/
+/*HOME */
 
 #home {
   height: 100vh;
@@ -1177,6 +1177,7 @@ fill: var(--paragraph-2);
 
   #home .button {
     margin: 0;
+    color: purple;
   }
 
   #home .wrapper::before {
@@ -1509,7 +1510,7 @@ fill: var(--paragraph-2);
     font-size: 2.5rem;
   }
 
-  /*===== HOME ==================================*/
+  /*HOME*/
 
   #home h1 {
     font-size: 2.9rem;
@@ -1526,7 +1527,7 @@ fill: var(--paragraph-2);
     bottom: 3.5rem;
   }
 
-  /*===== PROJECTS ==================================*/
+  /*PROJECTS*/
 
   #projects .card {
     padding: 1.8rem;
@@ -1544,7 +1545,7 @@ fill: var(--paragraph-2);
     height: 4rem;
   }
 
-  /*===== CONTACT ==================================*/
+  /*CONTACT */
 
   #contact ul a {
         font-size: 1.1rem;
