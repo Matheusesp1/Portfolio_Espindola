@@ -8,7 +8,7 @@ function projetos(section) {
           <h3>Calculadora Romana</h3>
           <div class="img-wrapper">
             <img
-              src="./assets/images/projects/"
+              src="./assets/images/projects/api-calc.png"
               
             />
             <div class="buttons">
@@ -37,17 +37,17 @@ function projetos(section) {
           <p>
            API Calculadora Romana
           </p>
-          <p> JS -NODEJS-</p>
+          <p> JS -NODEJS-EXPRESS</p>
         </div>
         <div class="card">
-          <h3>Desafio 21 dias de código</h3>
+          <h3>PHP Project</h3>
           <div class="img-wrapper">
             <img
-              src="./assets/images/projects/"
+              src="./assets/images/projects/PHP.png"
               alt="Imagem tema do projeto de desafio de código."
             />
             <div class="buttons">
-              <a href="https://github.com/lucyanovidio/desafio-21-dias-codigo-rocketseat" target="_blank" title="Repositório no Github">
+              <a href="" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -61,13 +61,6 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="#projects" id="desafio" title="Ver Projetos">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  height="24"
-                >
                   <path fill="none" d="M0 0h24v24H0z" />
                   <path
                     d="M12 3c5.392 0 9.878 3.88 10.819 9-.94 5.12-5.427 9-10.819 9-5.392 0-9.878-3.88-10.819-9C2.121 6.88 6.608 3 12 3zm0 16a9.005 9.005 0 0 0 8.777-7 9.005 9.005 0 0 0-17.554 0A9.005 9.005 0 0 0 12 19zm0-2.5a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9zm0-2a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"
@@ -77,16 +70,16 @@ function projetos(section) {
             </div>
           </div>
           <p>
-            desafio 2
+            Listagem de usuarios em php
           </p>
-          <p>HTML - CSS - JS</p>
+          <p>PHP</p>
         </div>
         <div class="card">
-          <h3>Nutricionista Roberto - Links</h3>
+          <h3>Desafio 3</h3>
           <div class="img-wrapper">
-            <img src="./assets/images/projects/roberto-links.gif" alt="Imagem do projeto." />
+            <img src="./assets/images/projects/desafio-de-codigo.jpg" alt="Imagem do projeto." />
             <div class="buttons">
-              <a href="https://github.com/lucyanovidio/robertoovidionutri-bio" target="_blank" title="Repositório no Github">
+              <a href="" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -100,13 +93,6 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="https://robertoovidionutri-bio.vercel.app" target="_blank" title="Ver Projeto">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  height="24"
-                >
                   <path fill="none" d="M0 0h24v24H0z" />
                   <path
                     d="M12 3c5.392 0 9.878 3.88 10.819 9-.94 5.12-5.427 9-10.819 9-5.392 0-9.878-3.88-10.819-9C2.121 6.88 6.608 3 12 3zm0 16a9.005 9.005 0 0 0 8.777-7 9.005 9.005 0 0 0-17.554 0A9.005 9.005 0 0 0 12 19zm0-2.5a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9zm0-2a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"
@@ -117,8 +103,9 @@ function projetos(section) {
           </div>
         <div>
         <p>
-            desafio 3
+            desafio teste
           </p>
+          <p>LINGUAGEM TESTE</p>
   
             <path fill="none" d="M0 0H24V24H0z" />
             <path

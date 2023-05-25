@@ -61,7 +61,6 @@ body.light-mode {
 
 .wrapper {
   width: min(50rem, 100%);
-
   margin-inline: auto;
   padding-inline: 2.4rem;
 }
@@ -89,7 +88,7 @@ section h4 {
   font-weight: 700;
   line-height: 150%;
   letter-spacing: 0.08rem;
-  color: aqua;
+  color:purple;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
 }
@@ -97,11 +96,11 @@ section h4 {
 section header h2 {
   font-size: 3rem;
   line-height: 3.9rem;
-  color: var(--primary-color);
+  color: purple;
 }
 
 section h3 {
-  color: var(--headline);
+  color: purple;
 }
 
 section p,
@@ -109,16 +108,16 @@ section span {
   font-weight: 400;
   font-size: 1.7rem;
   line-height: 130%;
-  color: var(--paragraph);
+  color: black;
 }
 
 .button {
   background: none;
-  border: 0.2rem solid var(--primary-color);
+  border: 0.2rem solid white;
   margin-bottom: 6rem;
   padding: 1.4rem 3rem;
   width: fit-content;
-  color: var(--primary-color);
+  color: green;
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -137,9 +136,9 @@ body.light-mode #home h4 {
 }
 
 .button:hover {
-  color: #fff;
-  background-color: var(--primary-hover);
-  border: 0.2rem solid var(--primary-hover);
+  color: black;
+  background-color: green;
+  border: 0.2rem solid white;
   cursor: pointer;
 }
 
@@ -220,11 +219,11 @@ body nav#navigation .social-links li:nth-child(4) svg:hover path:nth-child(2) {
 }
 
 #contact li path,
-#navigation button.open-menu path[stroke*="#00856F"] {
+#navigation button.open-menu path[stroke*="#FFD700"] {
   stroke: var(--primary-color);
 }
 
-#navigation.scroll button.open-menu path[stroke*="#00856F"] {
+#navigation.scroll button.open-menu path[stroke*="#FFD700"] {
   stroke: var(--paragraph-2);
 }
 
@@ -264,7 +263,7 @@ a.logo {
 }
 
 nav#navigation a.logo {
-  color: aqua;
+  color: purple;
 }
 
 body.light-mode nav#navigation a.logo,
@@ -367,7 +366,7 @@ body.menu-expanded button {
 }
 
 body.menu-expanded button path {
-  stroke: white;
+  stroke: purple;
 }
 
 /*===== HOME ===================================*/
@@ -393,7 +392,7 @@ body.menu-expanded button path {
 
 #home h1 {
   font-size: 4.5rem;
-  color: aqua;
+  color:purple;
   line-height: 110%;
   margin-bottom: 1rem;
 }
@@ -403,12 +402,11 @@ body.menu-expanded button path {
   font-size: 1.8rem;
   line-height: 150%;
   font-weight: bold;
-  color: aqua;
+  color: purple;
   margin-bottom: 3.2rem;
 }
 
 #home .line {
-  border-right: 0.2rem solid var(--primary-color);
   white-space: nowrap;
   overflow: hidden;
 }
@@ -466,7 +464,7 @@ body.menu-expanded button path {
   display: block;
   width: 27rem;
   height: 27rem;
-  background-color: var(--primary-color);
+  background-color: purple;
   border-radius: 100%;
   position: absolute;
   bottom: -3.1rem;
