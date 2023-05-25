@@ -7,7 +7,7 @@
 
 :root {
   --hue: 90;
-  --primary-color: hsl(var(--hue), 92%, 43%);
+  --primary-color: green;
   --primary-hover: hsl(var(--hue), 92%, 33%);
   --secundary-color: hsl(0, 0%, 5%);
   --third-color: hsla(0, 0%, 100%, 0.1);
@@ -108,7 +108,7 @@ section span {
   font-weight: 400;
   font-size: 1.7rem;
   line-height: 130%;
-  color: black;
+  color: white;
 }
 
 .button {
@@ -215,7 +215,7 @@ body nav#navigation .social-links li:nth-child(4) svg:hover path:nth-child(2) {
 }
 
 #backToTopButton circle {
-  fill: var(--primary-color);
+  fill: purple;
 }
 
 #contact li path,
@@ -928,7 +928,7 @@ fill: var(--paragraph-2);
   transform: translateX(3.8rem);
 }
 
-/*===== BACK TO TOP BUTTON =====================================*/
+/*BACK TO TOP BUTTON*/
 
 #backToTopButton {
   position: fixed;
