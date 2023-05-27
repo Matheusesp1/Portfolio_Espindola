@@ -219,11 +219,11 @@ body nav#navigation .social-links li:nth-child(4) svg:hover path:nth-child(2) {
 }
 
 #contact li path,
-#navigation button.open-menu path[stroke*=""] {
-  stroke: white
+#navigation button.open-menu path[stroke*="darkolivegreen"] {
+  stroke: darkolivegreen
 }
 
-#navigation.scroll button.open-menu path[stroke*=""] {
+#navigation.scroll button.open-menu path[stroke*="darkolivegreen"] {
   stroke: white;
 }
 
@@ -780,11 +780,11 @@ body.light-mode #home img#notebook-2-white {
 }
 
 #contact a.button path {
-  color: #00abf0;
+  color: darkolivegreen;
 }
 
 #contact a.button:hover path {
-  fill: #fff;
+  fill: black;
 }
 
 #contact ul li:nth-child(2) a img {
