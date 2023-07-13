@@ -1,7 +1,7 @@
 <h1 align="center">Portifólio - Matheus 💻</h1>
 
 
-<h4 align="center"><a href="https://https://portifolio-espindola.vercel.app/">Confira o projeto aqui</a></h4>
+<h4 align="center"><a href="https://portifolio-espindola.vercel.app/">Confira o projeto aqui</a></h4>
 
 ---
 
@@ -14,7 +14,7 @@
 - **Fale comigo:** Área com meios para contato comigo;
 - **Redes:** Minhas redes sociais disponíveis no menu de navegação e no rodapé do site.
 
-## 🧠 Tecnologias utilizadas:
+## Tecnologias utilizadas:
 
 O site **ainda está em desenvolvimento**, pois estou em constante aprendizado. Mas até aqui utilizei as tecnologias:
 
