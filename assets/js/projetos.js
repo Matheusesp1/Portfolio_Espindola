@@ -37,7 +37,7 @@ function projetos(section) {
           <p>
            API Calculadora Romana
           </p>
-          <p> JS -NODEJS-EXPRESS</p>
+          <p> JS-NODEJS-EXPRESS</p>
         </div>
         <div class="card">
           <h3>PHP Project</h3>
@@ -77,9 +77,9 @@ function projetos(section) {
         <div class="card">
           <h3>Desafio 3</h3>
           <div class="img-wrapper">
-            <img src="./assets/images/projects/desafio-de-codigo.jpg" alt="Imagem do projeto." />
+            <img src="./assets/images/projects/tela.png" alt="Imagem do projeto." />
             <div class="buttons">
-              <a href="" target="_blank" title="Repositório no Github">
+              <a href="https://github.com/Matheusesp1/Portifolio_Espindola" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
