@@ -103,9 +103,9 @@ function projetos(section) {
           </div>
         <div>
         <p>
-            desafio teste
+            Meu portifolio
           </p>
-          <p>LINGUAGEM TESTE</p>
+          <p>JS-HTML-CSS</p>
   
             <path fill="none" d="M0 0H24V24H0z" />
             <path
