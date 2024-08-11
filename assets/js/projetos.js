@@ -74,6 +74,7 @@ function projetos(section) {
               </p>
               <p>HTML-JAVA SCRIPT-CSS-TYPESCRIPT</p>
             </div>
+            <div class="card">
           <h3>Portifolio</h3>
           <div class="img-wrapper">
             <img src="./assets/images/projects/tela.png" alt="Imagem do projeto." />
