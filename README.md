@@ -1,4 +1,4 @@
-<h1 align="center">Portifólio - Matheus Espindola</h1>
+<h1 align="center">Portfólio - Matheus Espindola</h1>
 
 <h4 align="center"><a href="https://portifolio-espindola.vercel.app/">Confira o projeto aqui</a></h4>
 
