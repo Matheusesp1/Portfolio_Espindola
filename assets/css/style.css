@@ -215,7 +215,7 @@ body nav#navigation .social-links li:nth-child(4) svg:hover path:nth-child(2) {
 } 
 
  #backToTopButton circle {
-  fill: white; 
+  fill: red; 
 }
 
 #contact li path,
