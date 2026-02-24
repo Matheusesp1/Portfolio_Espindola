@@ -5,6 +5,7 @@
   font-family: "DM Sans", sans-serif;
 }
 
+
 :root {
   --hue: 90;
   --primary-color: white;
@@ -521,10 +522,17 @@ body.light-mode #home img#notebook-2-white {
 
 #about {
   text-align: left;
+  color: white;
 }
+
 
 #about .content p {
   margin-block: 2.4rem;
+}
+
+.about .content list {
+  padding-left: 20px;
+  color: white;
 }
 
 #about .content a {
