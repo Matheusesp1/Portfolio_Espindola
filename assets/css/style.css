@@ -530,11 +530,6 @@ body.light-mode #home img#notebook-2-white {
   margin-block: 2.4rem;
 }
 
-.about .content list {
-  padding-left: 20px;
-  color: white;
-}
-
 #about .content a {
   text-decoration: none;
   color: var(--paragraph);
