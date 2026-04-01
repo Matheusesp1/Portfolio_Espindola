@@ -799,7 +799,7 @@ body.light-mode #home img#notebook-2-white {
 }
 
 #contact .col-b {
-  height: 38rem;
+  height: 35rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -807,9 +807,9 @@ body.light-mode #home img#notebook-2-white {
 }
 
 #contact .col-b img {
-  width: 13rem;
+  width: 0%;
   animation: flutuar 2.5s infinite backwards;
-  filter: brightness(1.2);
+  filter: brightness(1.);
 }
 
 #contact .col-b::after {
