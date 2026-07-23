@@ -807,7 +807,7 @@ body.light-mode #home img#notebook-2-white {
 }
 
 #contact .col-b img {
-  width: 0%;
+  width: 20%;
   animation: flutuar 2.5s infinite backwards;
   filter: brightness(1.);
 }
